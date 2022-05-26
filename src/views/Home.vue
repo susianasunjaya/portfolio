@@ -9,14 +9,26 @@
         <v-col cols="8">
           <br>
           <br>
-          <h1 class="yellow--text" id="welcome">WELC</h1>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!-- <h1 class="yellow--text" id="welcome">WELC</h1> -->
 
           <!-- <v-img src="../assets/header.jpeg" contain max-height="500"></v-img> -->
         </v-col>
         <v-col cols="4">
           <br>
           <br>
-          <h1 class="yellow--text" id="welcome">ME!!!!</h1>
+          <!-- <h1 class="yellow--text" id="welcome">ME!!!!</h1> -->
           <br>
           <br>
         </v-col>
@@ -113,7 +125,7 @@
                             </v-avatar>
                           </v-col>
 
-                          <!-- <v-col class="hidden-xs-only" sm="5" md="3">
+                          <v-col class="hidden-xs-only" sm="5" md="3">
                             <strong v-html="message.name"></strong>
                             <span
                               v-if="message.total"
@@ -121,7 +133,7 @@
                             >
                               &nbsp;({{ message.total }})
                             </span>
-                          </v-col> -->
+                          </v-col>
 
                           <v-col class="text-no-wrap" cols="5" sm="3">
                             <v-chip
