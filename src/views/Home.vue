@@ -116,7 +116,7 @@
                 <img src="../assets/php.png" alt="php" width="80px">
                 <img src="../assets/js.jpg" alt="js" width="80px">
                 <img src="../assets/java.png" alt="java" width="80px">
-                <img src="../assets/mysql.png" alt="mysql" width="80px">
+                <img src="../assets/MySQL.png" alt="mysql" width="80px">
 
                 </div>                
             </div>
@@ -440,19 +440,19 @@ export default {
           organization: 'Himpunan Mahasiswa Teknik Informatika',
           year:'2020',
           title: 'Secretary',
-          color: 'orange',
+          color: 'pink',
         },
         {
           organization: 'Kamadhis Duta Dharma',
           year: '2020',
           title: 'Internal Division',
-          color: 'orange',
+          color: 'pink',
         },
         {
           organization: 'Kamadhis Duta Dharma',
           year: '2021',
           title: 'Treasurer',
-          color: 'orange',
+          color: 'pink',
         },
       ],
   }),
@@ -499,5 +499,25 @@ img{
 h3{
   color: rgb(234, 9, 159);
 }
+
+a:link {
+  color: rgb(234, 9, 159);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(234, 9, 159);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(234, 9, 159);
+}
+
+/* selected link */
+a:active {
+  color: rgb(234, 9, 159);
+}
+
 
 </style>

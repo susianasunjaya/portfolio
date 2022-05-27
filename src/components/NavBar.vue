@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="#001D6E" dark flat class="px-8">
+  <v-app-bar app color="black" dark flat class="px-8">
 
     <v-spacer></v-spacer>
     <v-btn text @click="scroll('home')">Home</v-btn>
