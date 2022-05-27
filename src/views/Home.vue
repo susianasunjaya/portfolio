@@ -19,8 +19,6 @@
           <br>
           <br>
           <br>
-          <br>
-          <br>
           <!-- <h1 class="yellow--text" id="welcome">WELC</h1> -->
 
           <!-- <v-img src="../assets/header.jpeg" contain max-height="500"></v-img> -->
@@ -31,6 +29,29 @@
           <!-- <h1 class="yellow--text" id="welcome">ME!!!!</h1> -->
           <br>
           <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br><br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
         </v-col>
       </v-row>
 
@@ -39,7 +60,7 @@
       <!-- About Me Start -->
       <v-col cols="12" class="padd">
           <div class="first" id="about">
-            <h2 class="blue--text">About Me</h2>
+            <h2 class="black--text">About Me</h2>
             <v-col cols="12">
               <div class="child">
                 <h3 align="center">Hello, I'm Susiana Sunjaya!<br></h3>
@@ -54,7 +75,7 @@
                 </p>
               </div>
             </v-col>
-            <h2 class="blue--text">Education</h2>
+            <h2 class="black--text">Education</h2>
             <v-col cols="12">
               <div class="child">
                 <v-card elevation="5" outlined shaped  width="350">
@@ -71,7 +92,7 @@
                 </v-card>
               </div>
             </v-col>
-            <h2 class="blue--text">Achievements</h2>
+            <h2 class="black--text">Achievements</h2>
               <v-col cols="12">
                 <div class="child">
                   <v-card elevation="5" outlined shaped  width="350" height="130">
@@ -86,19 +107,22 @@
                   </v-card>
                 </div>
               </v-col>
-            <h2 class="blue--text">Ability</h2>
+            <h2 class="black--text">Ability</h2>
             <div id="ability">
-              <v-col cols="12">
                 <div class="child">
-                  <v-img src="../assets/bhs_prog.png" width="750" height="auto" justify="center"></v-img>
+                <img src="../assets/python.jpg" alt="python" width="80px">
+                <img src="../assets/html.jpg" alt="html" width="80px">
+                <img src="../assets/css.jpg" alt="css" width="80px">
+                <img src="../assets/php.png" alt="php" width="80px">
+                <img src="../assets/js.jpg" alt="js" width="80px">
+                <img src="../assets/java.png" alt="java" width="80px">
+                <img src="../assets/mysql.png" alt="mysql" width="80px">
 
-                </div>
-                
-              </v-col>
+                </div>                
             </div>
 
-            <h2 class="blue--text">Experience</h2>
-            <!-- <v-col cols="12" md="7"> -->
+            <h2 class="black--text">Experience</h2>
+            <v-col cols="12">
               <div class="child">
                 <v-container fluid>
                   <v-row justify="center">
@@ -168,11 +192,11 @@
               </v-container>
               </div>
 
-            <!-- </v-col> -->
+            </v-col>
           <br><br><br>
 
 
-            <h2 class="blue--text">Organization</h2>
+            <h2 class="black--text">Organization</h2>
               <v-container>
                 <v-row justify="space-around">
                   <v-timeline align-top dense>
@@ -207,7 +231,7 @@
         </v-col>
         <v-col cols="12">
           <div class="first" id="certification">
-            <h2 class="blue--text">CERTIFICATION</h2>
+            <h2 class="black--text">CERTIFICATION</h2>
             <!-- Start Certification -->
             <v-col cols="12">
               <div class="child">
@@ -347,7 +371,7 @@
 
        <v-col cols="12">
          <div class="first" id="contact">
-           <h2 class="blue--text">Contact</h2>
+           <h2 class="black--text">Contact</h2>
               <a href="https://linkedin.com/in/susiana-sunjaya-1077361b5" target="_blank" >
                 <img src="../assets/linkedin.png" alt="linkedin" width="80px">
               </a>
@@ -459,7 +483,7 @@ export default {
 
 
 .homeprofile {
-  background-image: url(../assets/header.jpeg);
+  background-image: url(../assets/zero.png);
   background-size: cover;
   background-position: center;
   height: max-content;
@@ -470,6 +494,10 @@ export default {
 }
 img{
   margin: 20px;
+}
+
+h3{
+  color: rgb(234, 9, 159);
 }
 
 </style>
