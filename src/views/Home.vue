@@ -71,7 +71,7 @@
                 I am currently interested in data management and data analysis.<br> 
                 I hope I can make a good impact in that field in the future.<br> 
                 </p>
-                <p>If you want to work with me or just want to have a disscussion, please contact me :D
+                <p>If you want to work with me or just want to have a discussion, please contact me :D
                 </p>
               </div>
             </v-col>
